@@ -1,4 +1,4 @@
-    @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700');
     @font-face {
         font-family: Gotham;
         /* Гарнитура шрифта */
@@ -24,8 +24,10 @@
     }
     
     .container {
-        min-height: 100%;
+        height: 100%;
         width: 1366px;
+        display: flex;
+        flex-direction: column;
         margin: 0 auto;
     }
     
@@ -180,6 +182,12 @@
         cursor: pointer;
     }
     
+
+.content {
+    flex: 1 0 auto;  /* Прижатие футера к низу */
+}
+
+
     .new {
         height: 609px;
     }
@@ -515,9 +523,9 @@
     
     .footer {
         background-color: #f7f7f7;
-        width: 1366px;
         height: 384px;
-        margin: -384px auto 0;
+        flex: 0 0 auto;
+        
     }
     
     .footer h3 {
@@ -858,12 +866,6 @@
         height: 1px;
     }
 
-@supports (-webkit-appearance: none) {
-	hr { display: none;} 
-    .submenu_for_products {
-        margin-bottom: 50px;
-    }
-}
     
     .product_grid_products {
         height: 1569px;
@@ -892,60 +894,4 @@
         background: url(img/load.png) center center no-repeat, #fff;
         cursor: pointer;
         animation: load_anim linear infinite 2s;
-    }
-    
-    @media screen and (max-width: 400px) {
-        .new {
-            height: 900px;
-        }
-        .tab_top {
-            width: 560px;
-            margin: 0 auto 40px;
-        }
-        .tab_center {
-            width: 580px;
-            height: 580px;
-            margin: 0 auto;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-content: space-between;
-        }
-        .promo {
-            height: 1366px;
-            width: 683px;
-            margin: 0 auto;
-        }
-        .product_grid {
-            height: 1260px;
-            width: 850px;
-        }
-        .trending_tab {
-            width: 850px;
-        }
-        .product_grid_products {
-            height: 2469px;
-            width: 800px;
-        }
-        .addresses {
-            width: 370px;
-            height: 1170px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        .prod_left,
-        .prod_right {
-            float: none;
-            margin: 0 auto;
-        }
-        .extra_img {
-            text-align: center;
-            padding-top: 11px;
-        }
-        
-            .p31 {
-               display: none;
-    }
     }
