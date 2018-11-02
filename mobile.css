@@ -6,6 +6,10 @@
     display: none;
 }
 
+.mobile_version {
+    display: block;
+}
+
 .header {
     background: url(img/slider-img-mobile.jpg) no-repeat cover;
     background-position: center center;
@@ -79,7 +83,7 @@
         font-size: 28px;
         font-weight: 400;
         line-height: 44px;
-
+        
     }
 
     .text a {
@@ -195,7 +199,13 @@
         background-color: #f7f7f7;
         height: 550px;
 }
-        
+  
+/*----- Для страницы контактов---------*/
+
+    .header_contact h1 {
+
+        margin-top: 140px;
+    }
         .addresses {
             width: 370px;
             height: 1170px;
