@@ -2,53 +2,62 @@
         width: 850px;
 }
 
+.desktop_version {
+    display: none;
+}
+
 .header {
     background: url(img/slider-img-mobile.jpg) no-repeat cover;
     background-position: center center;
 }
 .logo {
-        margin: 63px auto 0;
+        margin: 63px -50px 0;
+        height: 1.4em;
     }
     
     .menu {
-        float: none;
+        margin-right: 40px;
     }
         
             .menu li a {
         
-        font-size: 32px;
+        font-size: 25px;
         font-weight: 500;
     }
         
         .menu li:nth-child(1) {
-        width: 130px;
+        width: 110px;
     }
     
     .menu li:nth-child(2) {
-        width: 200px;
+        width: 175px;
     }
     
     .menu li:nth-child(3) {
-        width: 160px;
+        /*width: 160px;*/
+        display: none;
     }
     
     .menu li:nth-child(4) {
-        width: 220px;
+        /*width: 220px;*/
+        display: none;
     }
     
     .menu li:nth-child(5) {
-        width: 200px;
+        width: 160px;
     }
 
  .menu #loop {
-        padding-top: 3px;
+        /*padding-top: 3px;
         padding-left: 2px;
-        padding-right: 0px;
+        padding-right: 0px;*/
+        display: none;
     }
 
 .header .text {
-        width: 590px;
-    margin-top: 240px;
+    width: 390px;
+    margin-top: 100px;
+    margin-left: -40px;
 }
 
     .text h3 {
@@ -60,9 +69,9 @@
     }
 
 .text h1 {
-        font-size: 72px;
+        font-size: 42px;
         font-weight: 300;
-        letter-spacing: -3px;
+        letter-spacing: -2px;
     }
 
     .text p {
@@ -84,9 +93,9 @@
         font-weight: 700;
         text-align: center;
         text-decoration: none;
-        border-radius: 22px;
+        border-radius: 27px;
         line-height: 55px;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         margin-bottom: 14px;
     }
 
@@ -94,21 +103,22 @@
      display: none;
 }
         .new {
+            width: 580px;
             height: 900px;
+            margin: 0 auto;
         }
 
     .box_new {
         width: 571px;
+        padding-left: 0;
 }
         .tab_top {
-            width: 560px;
+            width: 580px;
             margin: 0 auto 40px;
         }
         .tab_center {
             width: 580px;
             height: 580px;
-            margin: 0 auto;
-            display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             align-content: space-between;
@@ -118,14 +128,27 @@
             width: 683px;
             margin: 0 auto;
         }
-        .product_grid {
-            height: 1260px;
-            width: 850px;
-        }
-        .trending_tab {
+
+    .promo .text {
+        width: 384px;
+        margin-top: 228px;
+        margin-left: 51px;
+    }
+    
+    .promo .text p {
+        margin-top: 20px;
+        font-size: 25px;
+        line-height: 32px;
+        
+    }
+    .product_grid {
+            height: 1220px;
             width: 800px;
-        }
-        .product_grid_products {
+    }
+    .trending_tab {
+            width: 800px;
+    }
+    .product_grid_products {
             height: 2469px;
             width: 800px;
         }
@@ -136,13 +159,16 @@
 }
 
 .hot .text {
-    width: 530px;
+    width: 360px;
+    padding-top: 290px;
+    margin-left: -40px;
 }
 
     .ex_products {
         width: 570px;
         height: 1180px;
         flex-direction: column;
+        margin: 80px auto;
 }
 
 .mobile {
@@ -150,9 +176,25 @@
     background-position: center center;
 }
 
+    .mobile .text_m {
+        width: 372px;
+        height: 271px;
+        padding-top: 85px;
+        margin-left: 98px;
+    }
+
+    .mobile .text_m h1 {
+        font-size: 42px;
+        /* Приближение из-за подстановки шрифтов */
+        font-weight: 100;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
+
     .footer {
         background-color: #f7f7f7;
         height: 550px;
+}
         
         .addresses {
             width: 370px;
@@ -171,7 +213,3 @@
             text-align: center;
             padding-top: 11px;
         }
-        
-            .p31 {
-               display: none;
-    }
