@@ -19,7 +19,7 @@
         height: 1.4em;
     }
     
-    .menu {
+    .menu, .header_prod_page .menu {
         margin-right: 40px;
     }
         
@@ -196,10 +196,24 @@
     }
 
     .footer {
-        background-color: #f7f7f7;
-        height: 550px;
+        height: auto;
 }
   
+.footer_cont {
+    padding: 70px 0 0;
+}
+
+.contact {
+    margin-left: 50px;
+}
+
+.subscribe {
+    clear: both;
+    float: left;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
 /*----- Для страницы контактов---------*/
 
     .header_contact h1 {
@@ -214,6 +228,9 @@
             flex-direction: column;
             justify-content: space-between;
         }
+
+/*---------------для страницы товара-----------*/
+
         .prod_left,
         .prod_right {
             float: none;
@@ -223,3 +240,7 @@
             text-align: center;
             padding-top: 11px;
         }
+
+    .rel_products .p31 {
+        display: none;
+}
