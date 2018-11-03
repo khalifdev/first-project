@@ -591,23 +591,38 @@
         margin-left: 65px;
     }
     
-    .subscribe input {
+    .subscribe input[type="email"] {
+        float: left;
         border-width: 1px;
         border-color: #d9dee1;
         border-style: solid;
         background-color: #ffffff;
-        width: 368px;
+        width: 310px;
         height: 46px;
         color: #6c6c6c;
         font-size: 14px;
+        letter-spacing: 1.5px;
         /* Приближение из-за подстановки шрифтов */
         font-weight: 300;
         line-height: 22px;
         /* Приближение из-за подстановки шрифтов */
         text-align: left;
         margin-bottom: 59px;
-        background: url(img/mail.png) right 14px center no-repeat, #fff;
+        padding-left: 20px;
+        padding-right: 40px;
+        /*background: url(img/mail.png) right 14px center no-repeat, #fff;*/
     }
+
+.subscribe input[type="submit"] {
+    height: 46px;
+    width: 40px;
+    border: none;
+    float: left;
+    margin-left: -43px;
+    margin-top: 1px;
+    background: url(img/mail.png) center no-repeat, #fff;
+    cursor: pointer;
+}
     
     .last {
         clear: both;
