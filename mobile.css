@@ -1,0 +1,246 @@
+    .container {
+        width: 850px;
+}
+
+.desktop_version {
+    display: none;
+}
+
+.mobile_version {
+    display: block;
+}
+
+.header {
+    background: url(img/slider-img-mobile.jpg) no-repeat cover;
+    background-position: center center;
+}
+.logo {
+        margin: 63px -50px 0;
+        height: 1.4em;
+    }
+    
+    .menu, .header_prod_page .menu {
+        margin-right: 40px;
+    }
+        
+            .menu li a {
+        
+        font-size: 25px;
+        font-weight: 500;
+    }
+        
+        .menu li:nth-child(1) {
+        width: 110px;
+    }
+    
+    .menu li:nth-child(2) {
+        width: 175px;
+    }
+    
+    .menu li:nth-child(3) {
+        /*width: 160px;*/
+        display: none;
+    }
+    
+    .menu li:nth-child(4) {
+        /*width: 220px;*/
+        display: none;
+    }
+    
+    .menu li:nth-child(5) {
+        width: 160px;
+    }
+
+ .menu #loop {
+        /*padding-top: 3px;
+        padding-left: 2px;
+        padding-right: 0px;*/
+        display: none;
+    }
+
+.header .text {
+    width: 390px;
+    margin-top: 100px;
+    margin-left: -40px;
+}
+
+    .text h3 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 1.8px;
+        margin-bottom: 4px;
+    }
+
+.text h1 {
+        font-size: 42px;
+        font-weight: 300;
+        letter-spacing: -2px;
+    }
+
+    .text p {
+        color: #6c6c6c;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 44px;
+        
+    }
+
+    .text a {
+        display: block;
+        background-color: #ffffff;
+        box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+        width: 242px;
+        height: 55px;
+        color: #212121;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 27px;
+        line-height: 55px;
+        letter-spacing: 2px;
+        margin-bottom: 14px;
+    }
+
+ .rounds {
+     display: none;
+}
+        .new {
+            width: 580px;
+            height: 900px;
+            margin: 0 auto;
+        }
+
+    .box_new {
+        width: 571px;
+        padding-left: 0;
+}
+        .tab_top {
+            width: 580px;
+            margin: 0 auto 40px;
+        }
+        .tab_center {
+            width: 580px;
+            height: 580px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: space-between;
+        }
+        .promo {
+            height: 1366px;
+            width: 683px;
+            margin: 0 auto;
+        }
+
+    .promo .text {
+        width: 384px;
+        margin-top: 228px;
+        margin-left: 51px;
+    }
+    
+    .promo .text p {
+        margin-top: 20px;
+        font-size: 25px;
+        line-height: 32px;
+        
+    }
+    .product_grid {
+            height: 1220px;
+            width: 800px;
+    }
+    .trending_tab {
+            width: 800px;
+    }
+    .product_grid_products {
+            height: 2469px;
+            width: 800px;
+        }
+
+.hot {
+    background: url(img/slider-mobile.jpg) no-repeat cover;
+    background-position: center center;
+}
+
+.hot .text {
+    width: 360px;
+    padding-top: 290px;
+    margin-left: -40px;
+}
+
+    .ex_products {
+        width: 570px;
+        height: 1180px;
+        flex-direction: column;
+        margin: 80px auto;
+}
+
+.mobile {
+    background: url(img/back-img-mobile.jpg) no-repeat cover;
+    background-position: center center;
+}
+
+    .mobile .text_m {
+        width: 372px;
+        height: 271px;
+        padding-top: 85px;
+        margin-left: 98px;
+    }
+
+    .mobile .text_m h1 {
+        font-size: 42px;
+        /* Приближение из-за подстановки шрифтов */
+        font-weight: 100;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        height: auto;
+}
+  
+.footer_cont {
+    padding: 70px 0 0;
+}
+
+.contact {
+    margin-left: 50px;
+}
+
+.subscribe {
+    clear: both;
+    float: left;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+/*----- Для страницы контактов---------*/
+
+    .header_contact h1 {
+
+        margin-top: 140px;
+    }
+        .addresses {
+            width: 370px;
+            height: 1170px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+/*---------------для страницы товара-----------*/
+
+        .prod_left,
+        .prod_right {
+            float: none;
+            margin: 0 auto;
+        }
+        .extra_img {
+            text-align: center;
+            padding-top: 11px;
+        }
+
+    .rel_products .p31 {
+        display: none;
+}
